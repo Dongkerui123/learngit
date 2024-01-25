@@ -111,7 +111,3 @@ git config --global https.proxy http://127.0.0.1:7890
 
 Git客户端默认使用的http/https连接端口是80/443。
 
-
-
-GitHub报错：unable to access. Failed to connect to github.com port 443 after ...ms。
-
