@@ -111,3 +111,16 @@ git config --global https.proxy http://127.0.0.1:7890
 
 Git客户端默认使用的http/https连接端口是80/443。
 
+- git remote -v ：查看远程库
+- 修改远程库url：git remote set-url origin 地址
+
+#### 6.2从远程库克隆
+
+​	假设我们从零开发，那么最好的方式是先创建远程库，然后，从远程库克隆。
+
+- 登录GitHub，创建新仓库，勾选 Initialize with a README；
+- 使用 git clone命令；
+- 默认的`git://`使用ssh，但也可以使用`https`等其他协议。
+
+### 7 分支管理
+
